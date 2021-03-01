@@ -5,7 +5,7 @@
 
 ### Solution
 
-We are provided with a data.txt file containing a list of public RSA keys and cs (Cipher String?) and a pdf file containing a research paper written on an RSA-type cryptosystem utilizing probable primes to base 2 numbers.
+We are provided with a data.txt file containing a list of public RSA keys and cs (Cipher String?) and a pdf file containing a research paper written on an RSA-type cryptosystem.
 
 After reading through the document, we find that the only relevant part is Section 5 Point 3, where it states that 
 
