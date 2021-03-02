@@ -24,4 +24,4 @@ for i in range(0,length):
         if c == cs[i]:
             print(chr(a), end='')
 ```
-We get the output which is the flag **_DSO-NUS{983945f1246c3c60b9f49ead20ab97f11ff917215dc93da04bfbb2db7197f3d3}**
+We get the output which is the flag **DSO-NUS{983945f1246c3c60b9f49ead20ab97f11ff917215dc93da04bfbb2db7197f3d3}**
