@@ -7,7 +7,7 @@
 
 We are provided with a data.txt file containing a list of public RSA keys and cs (Cipher String?) and a pdf file containing a research paper written on an RSA-type cryptosystem.
 
-After reading through the document, we find that the only relevant parts are the encryption algorithm and Section 5 Point 3, where it states that the message is broken down into several parts for encryption and then recombined after decryption.
+After reading through the document, we find that the only relevant parts are the encryption algorithm and Section 5 Point 3, where it states that the message is broken down into several parts for encryption and then concatenated after decryption.
 
 **Encryption**
 ![alt text](./encrypt.png)
