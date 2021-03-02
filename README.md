@@ -9,7 +9,7 @@ We are provided with a data.txt file containing a list of public RSA keys and cs
 
 After reading through the document, we find that the only relevant parts are the encryption algorithm and Section 5 Point 3, where it states that the message is broken down into several parts for encryption and then recombined after decryption.
 
-![alt text](./Section 3.png)
+![alt text](./Section3.png)
 
 Normally this would be harder to crack, however, if the actual message part that was encrypted turned out to be very short we can decrypt it with a brute force algorithm. We use a python script to run through each character, encrypt it using the RSA public key and algorithm given, then output the one that matches the ciphertext.
 
