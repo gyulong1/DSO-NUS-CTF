@@ -14,7 +14,7 @@ After reading through the document, we find that the only relevant parts are the
 Normally this would be harder to crack, however, if the actual message part that was encrypted turned out to be very short we can decrypt it with a brute force algorithm. We use a python script to run through each character, encrypt it using the RSA public key and algorithm given, then output the one that matches the ciphertext.
 
 ```
-pubkeys = [[...]] //array hidden due to length
+pubkeys = [[...]] #array hidden due to length
 cs = [...]
 e = 65537
 length = len(cs)
